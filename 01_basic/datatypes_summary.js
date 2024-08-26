@@ -37,3 +37,24 @@ console.log(typeof id) // output symbol
     console.log("hello world")
  }
  console.log(typeof myFunction) // output function
+
+
+
+ // Stack (Primitive datatype)  , Heap (Non-Primitive datatype)
+
+ let myYoutubename = "Najiransaridotcom"
+ let anothername = "myYoutubename"
+ anothername = "chai aur code"
+ console.log(myYoutubename);
+ console.log(anothername); // output chai aur code
+
+
+ let userOne = {
+    email: "user@google.com" , 
+    esewa: "user@esewa"
+ }
+
+ let userTwo = userOne
+ userTwo.email = "najir@google.com"
+ console.log(userOne.email) // output najir@google.com
+ console.log(userTwo.email);
