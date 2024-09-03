@@ -24,10 +24,12 @@ for (let i=0; i<=10; i++){
 
  // Break and Continue
 
- for (let index = 1; index <= 20; index++) {
+//  
+
+for (let index = 1; index <= 20; index++) {
     if (index==5) {
         console.log(`Detected 5`);
-        break
+        continue
     }
     console.log(`value of i is ${index}`);
      
