@@ -8,7 +8,7 @@
 
 ## project 1
 
-```
+``` javascript
 console.log('Najir');
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('.body');
@@ -35,7 +35,9 @@ buttons.forEach(function (button) {
 
 ## project 2
 
-```const form = document.querySelector('form');
+```javascript
+
+const form = document.querySelector('form');
 //this usecase will give you empty
 // const height = parseInt(document.querySelector('#height'))
 form.addEventListener('submit', function (e) {
@@ -70,7 +72,8 @@ form.addEventListener('submit', function (e) {
 
 ## project 3
 
-```
+```javascript
+
 const clock = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
 
@@ -83,7 +86,9 @@ setInterval(function () {
 
 ## project 4
 
-```randomNumber = parseInt(Math.random() * 100 + 1);
+```javascript
+
+randomNumber = parseInt(Math.random() * 100 + 1);
 //console.log(randomNumber);
 const submit = document.querySelector('#subt');
 const userInput = document.querySelector('#guessField');
