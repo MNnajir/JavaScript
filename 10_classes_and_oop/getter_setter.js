@@ -11,7 +11,7 @@ class User {
     }
 
     get password() {
-    return this._password.toUpperCase()
+    return `${this._password}Najir`
     }
     set password(value){
     this._password = value
